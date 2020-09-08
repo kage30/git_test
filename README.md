@@ -7,7 +7,8 @@ mkdir : ディレクトリの作成
 
 
 ### 基本のgitコマンド
-  git help : 分からなかったらとりあえずこれ
+  git --version : gitのバージョン確認
+  git --help : 分からなかったらとりあえずこれ
 
   #### 設定
   - git config —global user.name "name"
