@@ -41,7 +41,7 @@ mkdir : ディレクトリの作成
 
   - git commit -m "commit comment" : コメント付けてコミット
     - git commit -m "commit comment" -m "commit comment" : つなげて書くと複数行かける
-    - git commit -F- << : これも複数行。↓みたいに書く(>も含む)
+    - git commit -F- <<EOM : これも複数行。↓みたいに書く(>も含む)
       > 要約
       >
       > 詳細
